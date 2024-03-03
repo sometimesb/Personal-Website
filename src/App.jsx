@@ -1,15 +1,29 @@
 import './App.css'
+import showSideBar from "./showSideBar.jsx"
+import hideSideBar from "./hideSideBar.jsx"
 
 export default function Navbar(){
   return(
-    <nav>
-      <h3 className="logo">Bilal.dev</h3>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+    <div>
+      <nav>
+        <h3 className="logo">Bilal.dev</h3>
+        <ul className="mainbar">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <li onClick={showSideBar}><svg xmlns="http://www.w3.org/2000/svg" height="27" viewBox="0 -960 960 960" width="27"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+        </ul>
+        <ul className="sidebar">
+          <li onClick={hideSideBar}><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-x"><path d="M18 6l-12 12"></path><path d="M6 6l12 12"></path></svg></li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   )
 }
+
+
