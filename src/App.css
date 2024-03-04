@@ -101,6 +101,14 @@ nav ul a::after {
   font-size: 1.5em;
 }
 
+.mainbar li:last-child {
+  cursor: pointer;
+}
+
+.sidebar li:first-child {
+  cursor: pointer;
+}
+
 @keyframes colorTransition {
   0% {
     color: var(--purple); 
@@ -119,14 +127,19 @@ nav ul a::after {
   }
 }
 
-@media (min-width: 601px){
+@media (min-width: 901px){
   .mainbar li:last-child {
     display: none;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .mainbar li:not(:last-child) {
     display: none;
   }
+}
+
+/* Main Body */
+.maincontainer{
+  height: 100vh;
 }
