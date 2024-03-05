@@ -16,10 +16,10 @@ export default function Navbar(){
         </ul>
         <ul className="sidebar">
           <li onClick={hideSideBar}><svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-x"><path d="M18 6l-12 12"></path><path d="M6 6l12 12"></path></svg></li>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li onClick={hideSideBar}><a href="#Home">Home</a></li>
+          <li onClick={hideSideBar}><a href="#About">About</a></li>
+          <li onClick={hideSideBar}><a href="#Projects">Projects</a></li>
+          <li onClick={hideSideBar}><a href="#Contact">Contact</a></li>
         </ul>
       </nav>
     </div>
