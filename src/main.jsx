@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client'
 import Navbar from "./App.jsx"
 import MainBody from "./MainBody.jsx"
 import AboutMe from "./AboutMe.jsx"
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
