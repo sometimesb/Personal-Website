@@ -1,6 +1,6 @@
-import './App.css'
-import showSideBar from "./showSideBar.jsx"
-import hideSideBar from "./hideSideBar.jsx"
+import './css/App.css'
+import showSideBar from "./scripts/showSideBar.jsx"
+import hideSideBar from "./scripts/hideSideBar.jsx"
 
 export default function Navbar(){
   return(
