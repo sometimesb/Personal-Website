@@ -163,6 +163,8 @@ nav ul a::after {
 /* Main Body */
 .maincontainer {
   height: 100vh;
+  width: 100%;
+
 }
 
 .hero-main {
@@ -291,7 +293,8 @@ nav ul a::after {
 
 .about-container {
   background-color: white;
-  padding: 20rem;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
 }
 
 .about-content {
@@ -324,8 +327,8 @@ nav ul a::after {
     margin-right: auto;
   }
   .about-img,.about-me {
-    height: 21rem;
-    width: 25rem;
+    height: 25rem;
+    width: 29rem;
   }
 
 }
