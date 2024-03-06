@@ -293,8 +293,8 @@ nav ul a::after {
 
 .about-container {
   background-color: white;
-  padding-top: 20rem;
-  padding-bottom: 20rem;
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
 }
 
 .about-content {
