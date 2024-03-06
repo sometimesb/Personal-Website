@@ -291,9 +291,7 @@ nav ul a::after {
 
 .about-container {
   background-color: white;
-  /* border: 1px solid red; */
-  padding: 7.5rem;
-  
+  padding: 20rem;
 }
 
 .about-content {
