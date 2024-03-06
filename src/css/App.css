@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: #f9f9f9;
   font-family: "Poppins", sans-serif;
   position: relative;
 }
@@ -163,7 +163,6 @@ nav ul a::after {
 /* Main Body */
 .maincontainer {
   height: 100vh;
-  /* border: 1px solid blue; */
 }
 
 .hero-main {
@@ -171,7 +170,6 @@ nav ul a::after {
   align-items: center;
   justify-content: center;
   gap: 10rem;
-  /* border: 1px solid green; */
   margin-left: 5rem;
   margin-right: 5rem;
   margin-top: 10rem;
@@ -207,7 +205,7 @@ nav ul a::after {
 .hero-img {
   -webkit-animation: morph 8s ease-in-out infinite;
   animation: morph 8s ease-in-out infinite;
-  background-image: url("./img/bilal.jpg");
+  background-image: url("../img/bilal.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -227,8 +225,6 @@ nav ul a::after {
     0 0 14px violet;
 }
 
-
-
 .icons {
   font-size: 2.5rem;
   display:flex;
@@ -239,8 +235,6 @@ nav ul a::after {
 .icons a{
   color: black;
 }
-
-
 
 @media (max-width: 900px) {
   .hero {
@@ -264,7 +258,6 @@ nav ul a::after {
 
   }
 }
-
 
 @media (max-width: 900px) {
   .hero-main {
@@ -295,4 +288,64 @@ nav ul a::after {
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
+
+.about-container {
+  background-color: white;
+  /* border: 1px solid red; */
+  padding: 7.5rem;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 41rem 41rem; 
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 10rem; 
+  margin-bottom: 10rem;
+  gap: 7.5rem;
+}
+
+.about-img {
+  background-image: url("https://wallpapers.com/images/featured/4k-laptop-yn553k4gdhpc4hlh.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35rem;
+  width: 41rem;
+  border-radius: 1.7rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+}
+
+.about-me {
+  height: 35rem;
+  width: 41rem;
+}
+
+.h1-about-me {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  background-image: linear-gradient(to right, purple 0%, blue 80%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.h1-dev-type{
+  font-size: 2.5rem;
+  color: #2d2e32;
+  line-height: 1.4;
+  margin-bottom: 2rem;
+}
+
+.p-dev-info{
+  color: #767676;
+  font-family: Mulish, sans-serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+
 

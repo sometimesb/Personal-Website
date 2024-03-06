@@ -41,6 +41,7 @@ export default function MainBody() {
         </div>
         <div className="hero-img"></div>
       </div>
-    </div>
+      
+  </div>
   );
 }
