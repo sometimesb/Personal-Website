@@ -34,7 +34,7 @@ export default function MainBody() {
             <a href="https://github.com/sometimesb" target="_blank">
               <i class="fa-brands fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/bilalzakaria" target="_blank">
+            <a href="https://www.linkedin.com/in/bilalfzakaria" target="_blank">
               <i class="fa-brands fa-linkedin-in"></i>
             </a>
           </span>
