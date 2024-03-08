@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio
 
-Welcome to my personal portfolio repository! This is where I showcase the projects I have worked on.
+Welcome to my personal portfolio repository! This is fully mobile responsive as well.
 
 ## 🔧 Technologies Used
 
