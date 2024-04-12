@@ -10,7 +10,7 @@ export default function Navbar(){
         <ul className="mainbar">
           <li><a href="#Home">Home</a></li>
           <li><a href="#About">About</a></li>
-          <li><a href="https://github.com/sometimesb/Personal-Website/raw/main/src/resume/BilalZakariaResume_2024.docx" download>Resume</a></li>
+          <li><a href="https://github.com/sometimesb/Personal-Website/raw/main/src/resume/BilalZakariaResume.docx" download>Resume</a></li>
           {/* <li><a href="#Projects">Projects</a></li> */}
           {/* <li><a href="#Contact">Contact</a></li> */}
           <li onClick={showSideBar}><svg xmlns="http://www.w3.org/2000/svg" height="27" viewBox="0 -960 960 960" width="27"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
