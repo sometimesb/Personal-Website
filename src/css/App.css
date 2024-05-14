@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
+  /* border: 1px solid blue; */
 }
 
 :root {
@@ -127,20 +127,18 @@ nav ul a::after {
   }
 }
 
-@media (min-width: 901px){
+@media (min-width: 1001px){
   .mainbar li:last-child {
     display: none;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .mainbar li:not(:last-child) {
     display: none;
   }
 }
 
-/* ScrollBar */
-/* custom scrollbar */
 ::-webkit-scrollbar {
   width: 20px;
 }
@@ -160,11 +158,9 @@ nav ul a::after {
   background-color: #a8bbbf;
 }
 
-/* Main Body */
 .maincontainer {
   height: 100vh;
   width: 100%;
-
 }
 
 .hero-main {
@@ -177,12 +173,106 @@ nav ul a::after {
   margin-top: 10rem;
 }
 
+.tech-stack,.platform-stack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 2.5rem;
+}
+
+.tech-text,.platform-text{
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  width: 550px;
+}
+
+.tech-text h1, .platform-text h1 {
+  color: #2d2e32;
+  font-size: 5.5rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-top: 2rem
+}
+
+.tech-text p, .platform-text p {
+  color: #555;
+  font-family: Mulish,sans-serif;
+  font-size: 1.9rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.tech-text p span, .platform-text p span{
+  padding-right: 2rem;
+  border-right: 2px solid rgba(45,46,50,.5)
+}
+
+.icon-box {
+  height: 10rem;
+  position: relative;
+  width: 45rem;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-box ul {
+  display: flex;
+  list-style-type: none;
+  margin: auto;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.icon-box ul li {
+  align-items: center;
+  cursor: pointer; 
+  transition: transform 0.2s ease; 
+  position: relative; 
+}
+
+.icon-box ul li::before {
+  content: '';
+  position: absolute;
+  top: -10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px; 
+  height: 6px; 
+  border-radius: 50%;
+  background-color: purple;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.icon-box ul li:hover {
+  transform: translateY(-5px); 
+}
+
+.icon-box ul li:hover::before {
+  animation: fireworks 0.5s linear infinite; 
+}
+
+@keyframes fireworks {
+  0% {
+      transform: translateX(-50%) translateY(0) scale(1);
+      opacity: 1;
+  }
+  100% {
+      transform: translateX(-50%) translateY(-50px) scale(0);
+      opacity: 0; 
+  }
+}
 
 .hero-text{
   display: flex;
   flex-direction: column;
   font-family: inherit;
-  /* border: 1px solid red; */
   margin-left: 5rem;
   margin-right: 5rem;
   width: 550px;
@@ -213,10 +303,10 @@ nav ul a::after {
   background-size: cover;
   border: 3px solid #2d2e32;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  height: 35rem;
+  height: 45rem;
   position: relative;
   transition: all 1s ease-in-out;
-  width: 35rem;
+  width: 45rem;
   box-shadow: 
     0 0 2px red,
     0 0 4px orange,
@@ -238,20 +328,36 @@ nav ul a::after {
   color: black;
 }
 
-@media (max-width: 900px) {
-  .hero {
+@media (max-width: 1000px) {
+  .hero { 
     height: auto;
     padding: 11rem 0;
   }
 
   .icons{
     justify-content: center;
-
   }
+  .icon-box ul {
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .tech-text p span, .platform-text p span{
+    padding-right: 0;
+    border-bottom: 2px solid rgba(45,46,50,.5);
+    border-right: none;
+  }
+  
 }
 
-@media (max-width: 900px) {
-  .hero-text {
+@media (max-width: 1000px){
+
+}
+
+@media (max-width: 1000px) {
+  .hero-text,.tech-text,.icon-box,.platform-text {
     width: 300px;
   }
 
@@ -261,16 +367,22 @@ nav ul a::after {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .hero-main {
     flex-direction: column-reverse;
     text-align: center;
     height: auto;
     gap: 3rem;
   }
+  .tech-stack,.platform-stack {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    gap: 3rem;
+  }
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
   .hero-img{
     height: 25rem;
     position: relative;
@@ -329,6 +441,7 @@ nav ul a::after {
   .about-img,.about-me {
     height: 25rem;
     width: 29rem;
+    
   }
 
 }

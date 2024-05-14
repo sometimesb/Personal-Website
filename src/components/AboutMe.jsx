@@ -11,7 +11,6 @@ export default function AboutMe(){
         <h1 className="h1-dev-type">Full-Stack Engineer based in Nashville, Tennessee</h1>
         <p className="p-dev-info">I am Bilal (B)! I am a Mechatronics Engineer that took a CS course out of curiosity, and now we here are! Tons of credits later 🎉</p>
         <p className="p-dev-info">I graduated from Middle Tennessee State University at the Age of 20 and Rank 1.</p>
-        <p className="p-dev-info">I currently use SQL and VB.NET at my current position and use Python, HTML, CSS, JS, React, and PHP in projects.</p>
       </div>
     </div>
   </div>
