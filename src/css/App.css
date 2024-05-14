@@ -213,7 +213,7 @@ nav ul a::after {
   border-right: 2px solid rgba(45,46,50,.5)
 }
 
-.icon-box {
+.icon-box,.platform-box {
   height: 10rem;
   position: relative;
   width: 45rem;
@@ -221,7 +221,7 @@ nav ul a::after {
   justify-content: center;
 }
 
-.icon-box ul {
+.icon-box ul,.platform-box ul {
   display: flex;
   list-style-type: none;
   margin: auto;
