@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  /* border: 1px solid red; */
 }
 
 :root {
@@ -25,7 +26,7 @@ nav {
   height: auto;
   padding: 25px 40px 25px 50px;
   display: flex;
-  /* position: fixed; */
+  position: fixed;
   justify-content: space-between;
   background-color: white;
   top: 0;
@@ -351,7 +352,6 @@ nav ul a::after {
   
 }
 
-
 @media (max-width: 1000px) {
   .hero-text,.tech-text,.icon-box{
     width: 300px;
@@ -412,7 +412,6 @@ nav ul a::after {
   padding-bottom: 5rem;
 }
 
-
 .about-content {
   display: grid;
   grid-template-columns: 41rem 41rem; 
@@ -433,52 +432,84 @@ nav ul a::after {
 }
 
 @media (max-width: 600px) {
-  .about-content {
+  .about-content,.grid-container {
     grid-template-columns: 1fr;
     text-align: center;
-    padding-bottom: 10rem;
   }
-  .about-img, .about-me {
+  .about-img, .about-me,.img-container-project,.info-right  {
     margin-left: auto;
     margin-right: auto;
     height: 25rem;
     width: 29rem;
   }
   .icon-box ul li img{
-    width: 100%; /* Make the images 90% of their parent container's width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%;
+    height: auto;
   }
   .maincontainer{
     margin-bottom:25rem ;
+  }
+  .header{
+    margin-top: 5rem;
+    text-align: center;
+  }
+  .img-container-project{
+    margin: auto;
+    height: 20rem;
+    width: 31rem;
   }
 
 }
 
 @media (min-width: 601px) and (max-width: 968px) {
-  .about-content {
+  .about-content,.grid-container {
     grid-template-columns: 1fr;
     text-align: center;
+    margin-top: 10rem; 
+    margin-bottom: 10rem;
   }
-  .about-img, .about-me {
+  .about-img,.about-me,.info-right{
+    height: 31rem; 
+    width: 35rem; 
     margin-left: auto;
     margin-right: auto;
   }
-  .about-img,.about-me {
-    height: 31rem; 
-    width: 35rem; 
+  .img-container-project{
+    margin: auto;
+    height: 30rem;
+    width: 46rem;
   }
+
+  .header{
+    margin-top: 5rem;
+    text-align: center;
+  }
+
 }
 
 @media(min-width: 969px){
-  .about-img {
+  .about-img,.about-me  {
     height: 35rem;
     width: 41rem;
+  }
+  .grid-container{
+    grid-template-columns: 55% 45%;
+    margin-top: 10rem; 
+    margin-bottom: 10rem;
+  }
+  
+  .header{
+    margin-top: 5rem;
+    margin-left: 40vw;
   }
 
-  .about-me {
+  .img-container-project{
+    margin-left: auto;
+    margin-right: 0;
     height: 35rem;
-    width: 41rem;
+    width: 55rem;
   }
+
 }
 
 .h1-about-me {
@@ -506,3 +537,103 @@ nav ul a::after {
   line-height: 1.5;
   margin-bottom: 2rem;
 }
+
+.Projects-container{
+  margin-bottom: 10rem;
+}
+
+.Projects-container .header h2{
+  color: var(--purple);
+  font-size: 2.2rem;
+} 
+
+.Projects-container .header h3{
+  font-size: 1.6rem;
+}
+
+.grid-container {
+  display: grid;
+  gap: 5rem;
+}
+
+.img-container-project{
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1.7rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+}
+.img-container-project.one{
+  background-image: url("../img/project-4-sight.png");
+}
+.img-container-project.two{
+  background-image: url("../img/energisuite.png");
+}
+.img-container-project.three{
+  background-image: url("../img/EnergiReaperReborn.png");
+}
+.img-container-project.four{
+  background-image: url("../img/nemo-the-duck-bot.png");
+}
+
+.info-right{
+  width: 35rem;
+  height: 35rem;
+  width: 35rem;
+}
+
+.info-right .title{
+  color: #2d2e32;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.project-info{
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem;
+  line-height: 1.4;
+  color: #767676;
+}
+
+.project-languages ul {
+  list-style: none;
+  text-align: center;
+  list-style-type: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project-languages ul li {
+  color: var(--purple); 
+}
+
+.project-languages li {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.links {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.icons-project {
+  font-size: 24px;
+}
+
+.icons-project a {
+  color: #333;
+  text-decoration: none;
+}
+
+.icons-project a:hover {
+  color: #000;
+}
+
+

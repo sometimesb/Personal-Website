@@ -11,6 +11,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navbar/>
     <MainBody/>
     <AboutMe/>
-    {/* <Projects/> */}
+    <Projects/>
   </React.StrictMode>,
 )
