@@ -412,6 +412,7 @@ nav ul a::after {
   padding-bottom: 5rem;
 }
 
+
 .about-content {
   display: grid;
   grid-template-columns: 41rem 41rem; 
@@ -446,6 +447,9 @@ nav ul a::after {
   .icon-box ul li img{
     width: 100%; /* Make the images 90% of their parent container's width */
     height: auto; /* Maintain aspect ratio */
+  }
+  .maincontainer{
+    margin-bottom:35rem ;
   }
 
 }
