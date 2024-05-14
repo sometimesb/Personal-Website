@@ -11,7 +11,7 @@ export default function MainBody() {
                 options={{ loop: true }}
                 getBeforeInit={(instance) => {
                   instance
-                    .type("Full Stack Software Engineer 👋")
+                    .type("Full Stack Engineer 👋")
                     .pause(1000)
                     .delete(30)
                     .pause(500)
@@ -28,8 +28,8 @@ export default function MainBody() {
               />
             </h1>
             <p>
-              Hi, I'm Bilal Zakaria. A passionate Full-Stack Engineer based in
-              Nashville, Tennesee.📍
+              Hi, I'm Bilal Zakaria. A passionate Software Engineer from
+              Nashville, Tennessee.📍
             </p>
             <span className="icons">
               <a href="https://github.com/sometimesb" target="_blank">
@@ -42,7 +42,7 @@ export default function MainBody() {
           </div>
           <div className="hero-img"></div>
         </div>
-        <div className="tech-stack">
+      <div className="tech-stack">
           <div className="tech-text">
             <p>
               <span>Tech Stack</span>
@@ -56,13 +56,13 @@ export default function MainBody() {
             </ul>
           </div>
         </div>
-        <div className="platform-stack">
-          <div className="platform-text">
+        <div className="tech-stack">
+          <div className="tech-text">
             <p>
               <span>Platforms</span>
             </p>
           </div>
-          <div className="platform-box">
+          <div className="icon-box">
             <ul>
                 <li><img src="https://skillicons.dev/icons?i=azure,aws"/></li>
                 <li><img src="https://skillicons.dev/icons?i=arduino,linux"/></li>
