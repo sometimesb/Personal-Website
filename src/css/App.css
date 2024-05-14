@@ -449,7 +449,7 @@ nav ul a::after {
     height: auto; /* Maintain aspect ratio */
   }
   .maincontainer{
-    margin-bottom:35rem ;
+    margin-bottom:30rem ;
   }
 
 }
