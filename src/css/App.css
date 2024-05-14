@@ -447,7 +447,7 @@ nav ul a::after {
     width: 100%; /* Make the images 90% of their parent container's width */
     height: auto; /* Maintain aspect ratio */
   }
-  
+
 }
 
 @media (min-width: 601px) and (max-width: 968px) {
@@ -492,7 +492,7 @@ nav ul a::after {
   color: #2d2e32;
   line-height: 1.4;
   margin-bottom: 2rem;
-}
+} 
 
 .p-dev-info{
   color: #767676;

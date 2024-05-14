@@ -56,20 +56,20 @@ export default function MainBody() {
             </ul>
           </div>
         </div>
-        <div className="tech-stack">
-          <div className="tech-text">
-            <p>
-              <span>Platforms</span>
-            </p>
-          </div>
-          <div className="icon-box">
-            <ul>
-                <li><img src="https://skillicons.dev/icons?i=azure,aws"/></li>
-                <li><img src="https://skillicons.dev/icons?i=arduino,linux"/></li>
-                <li><img src="https://skillicons.dev/icons?i=github,vercel"/></li>
-            </ul>
-          </div>
+      <div className="tech-stack">
+        <div className="tech-text">
+          <p>
+            <span>Platforms</span>
+          </p>
         </div>
+        <div className="icon-box">
+          <ul>
+              <li><img src="https://skillicons.dev/icons?i=azure,aws"/></li>
+              <li><img src="https://skillicons.dev/icons?i=arduino,linux"/></li>
+              <li><img src="https://skillicons.dev/icons?i=github,vercel"/></li>
+          </ul>
+        </div>
+      </div>
       </div>
     </div>
   );
