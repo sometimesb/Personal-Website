@@ -64,7 +64,7 @@ export default function MainBody() {
         </div>
         <div className="icon-box">
           <ul>
-              <li><img src="https://skillicons.dev/icons?i=aws"/></li>
+              {/* <li><img src="https://skillicons.dev/icons?i=aws"/></li> */}
               <li><img src="https://skillicons.dev/icons?i=arduino,linux"/></li>
               <li><img src="https://skillicons.dev/icons?i=github,vercel"/></li>
           </ul>
