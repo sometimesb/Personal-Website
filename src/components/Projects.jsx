@@ -7,6 +7,37 @@ export default function Projects(){
     </div>
     <div className="project">
       <div className="grid-container">
+        <div className="img-container-project zero">
+          <img src="../img/workinprogress.png" alt="" />
+        </div>
+        <div className="info-right">
+          <div className="title">
+            Work In Progress 🔨 
+          </div>
+          <div className="project-info">
+            <p>A healthcare project. Receives data from integrations (watchs, fitness apps), and beautifully graphs and illustrates the power of Postgres.</p>
+          </div>
+          <div className="project-languages">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>React</li>
+              <li>Django</li>
+              <li>Postgres SQL</li>
+            </ul>
+          </div>
+          <div className="links">
+            <span className="icons-project">
+              <a href="" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="project">
+      <div className="grid-container">
         <div className="img-container-project one">
           <img src="../img/project-4-sight.png" alt="" />
         </div>

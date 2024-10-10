@@ -563,6 +563,11 @@ nav ul a::after {
   border-radius: 1.7rem;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
 }
+
+.img-container-project.zero{
+  background-image: url("../img/workinprogress.jpg");
+}
+
 .img-container-project.one{
   background-image: url("../img/project-4-sight.png");
 }

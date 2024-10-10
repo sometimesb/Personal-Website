@@ -9,8 +9,9 @@ export default function AboutMe(){
       <div className="about-me">
         <h1 className="h1-about-me">ABOUT ME</h1>
         <h1 className="h1-dev-type">Software Engineer based in Nashville, Tennessee</h1>
-        <p className="p-dev-info">I am Bilal (B)! I am a Mechatronics Engineer that took a CS course out of curiosity, and now we here are! Tons of credits later 🎉</p>
-        <p className="p-dev-info">I graduated from Middle Tennessee State University at the Age of 20 and Rank 1.</p>
+        <p className="p-dev-info">I am Bilal (B)!</p>
+        <p className="p-dev-info">I graduated from Middle Tennessee State University with a BS in Mechatronics and am completing my Masters in CS @ Georgia Tech.</p>
+        <p className="p-dev-info"></p>
       </div>
     </div>
   </div>
