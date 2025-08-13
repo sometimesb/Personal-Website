@@ -8,27 +8,29 @@ export default function Projects(){
     <div className="project">
       <div className="grid-container">
         <div className="img-container-project zero">
-          <img src="../img/workinprogress.png" alt="" />
+          <img src="../img/1754954876458.jpg" alt="" />
         </div>
         <div className="info-right">
           <div className="title">
-            Work In Progress 🔨 
+            BlockAugur
           </div>
           <div className="project-info">
-            <p>A healthcare project. Receives data from integrations (watchs, fitness apps), and beautifully graphs and illustrates the power of Postgres.</p>
+            <p>A cryptocurrency analysis platform. Performs statistical analysis on each coin and displays in beautiful charts for easy viewing.</p>
           </div>
           <div className="project-languages">
             <ul>
               <li>HTML</li>
               <li>CSS</li>
               <li>React</li>
-              <li>Django</li>
+              <li>FastAPI</li>
               <li>Postgres SQL</li>
+              <li>ETL</li>
+              <li>AWS</li>
             </ul>
           </div>
           <div className="links">
             <span className="icons-project">
-              <a href="" target="_blank">
+              <a href="https://blockaugur.com/" target="_blank">
                 <i class="fa-brands fa-github"></i>
               </a>
             </span>

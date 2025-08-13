@@ -52,7 +52,7 @@ export default function MainBody() {
             <ul>
                 <li><img src="https://skillicons.dev/icons?i=html,css"/></li>
                 <li><img src="https://skillicons.dev/icons?i=js,react"/></li>
-                <li><img src="https://skillicons.dev/icons?i=python,django"/></li>
+                <li><img src="https://skillicons.dev/icons?i=python,fastapi"/></li>
                 <li><img src="https://skillicons.dev/icons?i=mysql,postgres"/></li>
             </ul>
           </div>
@@ -66,7 +66,7 @@ export default function MainBody() {
         <div className="icon-box">
           <ul>
               {/* <li><img src="https://skillicons.dev/icons?i=aws"/></li> */}
-              <li><img src="https://skillicons.dev/icons?i=docker,linux"/></li>
+              <li><img src="https://skillicons.dev/icons?i=linux"/></li>
               <li><img src="https://skillicons.dev/icons?i=github,vercel"/></li>
           </ul>
         </div>

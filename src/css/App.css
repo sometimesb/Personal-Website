@@ -565,7 +565,7 @@ nav ul a::after {
 }
 
 .img-container-project.zero{
-  background-image: url("../img/workinprogress.jpg");
+  background-image: url("../img/1754954876458.jpg");
 }
 
 .img-container-project.one{
@@ -607,12 +607,14 @@ nav ul a::after {
   list-style: none;
   text-align: center;
   list-style-type: none;
-  margin-top: 2rem;
+  /*margin-top: 2rem;*/
   margin-bottom: 2rem;
+
+
 }
 
 .project-languages ul li {
-  color: var(--purple); 
+  color: var(--purple);
 }
 
 .project-languages li {
@@ -621,6 +623,7 @@ nav ul a::after {
   background-color: #f0f0f0;
   padding: 5px 10px;
   border-radius: 5px;
+  margin-top: 5px;
 }
 
 .links {
@@ -641,4 +644,6 @@ nav ul a::after {
   color: #000;
 }
 
-
+/**{*/
+/*  border: 1px solid red;*/
+/*}*/
